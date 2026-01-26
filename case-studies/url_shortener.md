@@ -104,7 +104,6 @@ Index:
 short_code (unique index)
 
 
-7. Short Code Generation Strategy
 
 
 7. Short Code Generation Strategy
