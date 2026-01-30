@@ -215,10 +215,10 @@ Rate limiting
 Auth for premium users
 
 14. Bottlenecks & Solutions
-Problem	Solution
-DB overload	Redis cache
-Hot shard	Hash-based sharding
-Abuse	Rate limiting
+Problem  	Solution
+DB overload	 Redis cache
+Hot shard	 Hash-based sharding
+Abuse       	Rate limiting
 High latency	CDN + cache
 ID generation	Distributed ID generator
 15. System Flow (End-to-End)
