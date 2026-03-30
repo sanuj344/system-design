@@ -105,14 +105,16 @@ User A → WebSocket Server → Message Queue → Database
                                ↓
                         Fetch undelivered messages
 8. Database Design
+
 Messages Table
-Field	Type
-message_id	bigint
-sender_id	bigint
-receiver_id	bigint
-content	text
-timestamp	datetime
-status	sent/delivered/read
+
+Field	       Type
+message_id  	bigint
+sender_id   	bigint
+receiver_id 	bigint
+content	         text
+timestamp   	datetime
+status  	sent/delivered/read
 Index:
 
 (sender_id, receiver_id)
@@ -120,11 +122,13 @@ Index:
 timestamp
 
 Users Table
-Field	Type
-user_id	bigint
-name	varchar
-last_seen	datetime
-status	online/offline
+
+Field   	Type
+user_id	  bigint
+name	 varchar
+last_seen 	datetime
+status 	online/offline
+
 9. Caching (Redis)
 Cache:
 
